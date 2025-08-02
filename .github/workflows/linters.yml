@@ -2,11 +2,11 @@ name: Linters
 
 on:
   push:
-branches:
-  - main
-  - develop 
-pull-requests:
-  branches:
+   branches:
+    - main
+    - develop 
+  pull-requests:
+   branches:
     - main
     - dev
 env:
